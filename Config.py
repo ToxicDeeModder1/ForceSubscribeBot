@@ -18,11 +18,12 @@ if ENVIRONMENT:
 else:
     # Fill the Values
     API_ID = 0
-    API_HASH = ""
-    BOT_TOKEN = ""
-    DATABASE_URL = ""
+    API_HASH = "9e0b9e90b854c23fe89ee57b0a75ff32"
+    BOT_TOKEN = "2012922112:AAF3ZESKw6IqiIAPIWUfeG7OcYP-Y83Lzf8"
+    DATABASE_URL = "mongodb+srv://TeamBoruto:Mbazimaa@cluster0.qsncd.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
     DATABASE_URL = DATABASE_URL.replace("postgres", "postgresql")
-    MUST_JOIN = "StarkBots"
+    MUST_JOIN = "TheBotsWorldChanne"
+
     if MUST_JOIN.startswith("@"):
         MUST_JOIN = MUST_JOIN[1:]
 
