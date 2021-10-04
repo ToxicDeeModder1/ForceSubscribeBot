@@ -22,7 +22,7 @@ else:
     BOT_TOKEN = "2012922112:AAF3ZESKw6IqiIAPIWUfeG7OcYP-Y83Lzf8"
     DATABASE_URL = "mongodb+srv://TeamBoruto:Mbazimaa@cluster0.qsncd.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
     DATABASE_URL = DATABASE_URL.replace("postgres", "postgresql")
-    MUST_JOIN = "TheBotsWorldChanne"
+    MUST_JOIN = "TheBotsWorldChannel"
 
     if MUST_JOIN.startswith("@"):
         MUST_JOIN = MUST_JOIN[1:]
